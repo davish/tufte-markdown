@@ -105,7 +105,7 @@ describe('Sidenotes', () => {
     describe('sidenote content', () => {
       it('should replace the `footnoteDefinition` with a span element', () => {
         expect(
-          select(result, 'html[value^=<span class="sidenote]')
+          select(result, 'html[value^=<aside class="sidenote]')
         ).toHaveLength(1)
         expect(select(result, 'footnoteDefinition')).toHaveLength(0)
       })
@@ -153,7 +153,7 @@ describe('Sidenotes', () => {
     it('should remove the wrapping paragraph from the note-content', () => {
       const note = select(
         result,
-        'html[value^=<span class="sidenote] + html'
+        'html[value^=<aside class="sidenote] + html'
       )[0]
       expect(note.value).not.toMatch(/^<p>/)
     })
@@ -288,7 +288,7 @@ describe('Marginnotes', () => {
     describe('sidenote content', () => {
       it('should replace the `footnoteDefinition` with a span element', () => {
         expect(
-          select(result, 'html[value^=<span class="marginnote]')
+          select(result, 'html[value^=<aside class="marginnote]')
         ).toHaveLength(1)
         expect(select(result, 'footnoteDefinition')).toHaveLength(0)
       })

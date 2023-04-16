@@ -17,7 +17,7 @@ Object {
             },
             Object {
               "type": "html",
-              "value": "<span class=\\"marginnote\\">",
+              "value": "<aside class=\\"marginnote\\">",
             },
             Object {
               "type": "html",
@@ -25,7 +25,7 @@ Object {
             },
             Object {
               "type": "html",
-              "value": "</span>",
+              "value": "</aside>",
             },
             Object {
               "alt": "alpha",
@@ -63,7 +63,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "<span class=\\"marginnote\\">",
+          "value": "<aside class=\\"marginnote\\">",
         },
         Object {
           "type": "html",
@@ -71,7 +71,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "</span>",
+          "value": "</aside>",
         },
         Object {
           "type": "text",
@@ -116,7 +116,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "<span class=\\"marginnote\\">",
+          "value": "<aside class=\\"marginnote\\">",
         },
         Object {
           "type": "html",
@@ -124,7 +124,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "</span>",
+          "value": "</aside>",
         },
         Object {
           "type": "text",
@@ -173,7 +173,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "<span class=\\"sidenote\\">",
+          "value": "<aside class=\\"sidenote\\">",
         },
         Object {
           "type": "html",
@@ -181,7 +181,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "</span>",
+          "value": "</aside>",
         },
         Object {
           "type": "text",
@@ -226,7 +226,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "<span class=\\"sidenote\\">",
+          "value": "<aside class=\\"sidenote\\">",
         },
         Object {
           "type": "html",
@@ -234,7 +234,7 @@ Object {
         },
         Object {
           "type": "html",
-          "value": "</span>",
+          "value": "</aside>",
         },
         Object {
           "type": "text",

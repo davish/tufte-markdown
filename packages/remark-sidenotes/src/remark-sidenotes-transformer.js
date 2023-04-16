@@ -32,7 +32,7 @@ const getReplacement = ({ isMarginNote, noteHTML }) => {
     },
     {
       type: 'html',
-      value: `<span class="${noteTypeCls}">`,
+      value: `<aside class="${noteTypeCls}">`,
     },
     {
       type: 'html',
@@ -40,7 +40,7 @@ const getReplacement = ({ isMarginNote, noteHTML }) => {
     },
     {
       type: 'html',
-      value: '</span>',
+      value: '</aside>',
     },
   ]
 }
